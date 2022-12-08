@@ -26,6 +26,7 @@ Consider the following Spring Annotations:
 | `@PathVariable`            | Maps the dynamic path value to the parameter                                                                              |
 | `@Repository`              | Specialization of the `@Component` annotation, to indicate a repository class                                             |
 | `@RequestParam`            | Indicates that a method parameter should be bound to the web request as a parameter                                       |
+| `@RequestBody`             | This annotation allows the method to accept JSON formatted client data and convert it to a Java object                    |
 | `@ResponseBody`            | Configures Spring to return a response from the controller methods                                                        |
 | `@RestController`          | Combines the `@Controller` and `@ResponseBody` annotations                                                                |
 | `@Scope`                   | Define the scope of a bean                                                                                                |
@@ -109,3 +110,4 @@ Consider the following JPA Annotations:
 - [PutMapping Annotation](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/bind/annotation/PutMapping.html)
 - [DeleteMapping Annotation](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/bind/annotation/DeleteMapping.html)
 - [Using @Query Documentation](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods.at-query)
+- [RequestBody Annotation](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/bind/annotation/RequestBody.html)
